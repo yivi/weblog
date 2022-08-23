@@ -20,7 +20,7 @@ task('hugo:rebuild', function () {
 
 host('ludoteca')
     ->set('remote_user', 'deployer')
-    ->set('deploy_path', '~/weblog-hugo');
+    ->set('deploy_path', '/var/www/weblog.yivoff.com');
 
 // Hooks
 
