@@ -1,0 +1,46 @@
+{{ define "main" }}
+<main id="main">
+    <h1>{{ .Title }}</h1>
+    {{ if site.Params.search }}
+    <input
+            id="search"
+            type="text"
+            placeholder="{{ T "search_placeholder" }}"
+    aria-label="{{ T "search_aria_label" }}"
+    />
+    {{ end }}
+
+    <ul class="patterns-list" id="list">
+        {{ range where .Site.Pages "Params.Type" "eq" "post" }}
+        <li>
+            <h2>
+                <a href="{{ .RelPermalink }}">
+                    <svg
+                            class="bookmark"
+                            aria-hidden="true"
+                            viewBox="0 0 40 50"
+                            focusable="false"
+                    >
+                        <use href="#bookmark"></use>
+                    </svg>
+                    {{ .Title }}
+                </a>
+            </h2>
+
+    {{ with .Params.tags }}
+    <div class="tags">
+        {{ range . }}
+        <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+            <use href="#tag"></use>
+        </svg>
+        {{ $href := print ("tags/" | relLangURL) (. | urlize) "/" }}
+        <a href="{{ $href }}">{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}

@@ -1,0 +1,37 @@
+<svg width="390" height="390" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <ellipse fill="#ffffff" stroke="#000" cx="411" cy="207" id="svg_6"/>
+  <line fill="none" stroke="#000000" x1="218" y1="347" x2="217" y2="347" id="svg_14"/>
+  <path id="svg_9" d="m194.5,345.99999c-72.65193,0 -131.5,-71.37845 -131.5,-159.49999c0,-88.12154 58.84807,-159.49999 131.5,-159.49999c72.65193,0 131.5,71.37845 131.5,159.49999c0,88.12154 -58.84807,159.49999 -131.5,159.49999z" fill="#000000"/>
+  <ellipse transform="rotate(-12.3303, 70.7492, 198.853)" ry="86" rx="34.12687" id="svg_11" cy="198.85258" cx="70.74919" fill="#000000"/>
+  <ellipse transform="rotate(7.84166, 320.77, 196.216)" ry="86" rx="35.68827" id="svg_12" cy="196.21627" cx="320.76971" fill="#000000"/>
+  <path filter="url(#svg_16_blur)" id="svg_13" d="m153,217c-27.62431,0 -50,-21.48066 -50,-48c0,-26.51934 22.37569,-48 50,-48c27.62431,0 50,21.48066 50,48c0,26.51934 -22.37569,48 -50,48z" fill="#ffffff"/>
+  <path filter="url(#svg_16_blur)" id="svg_16" d="m233,217c-27.62431,0 -50,-21.48066 -50,-48c0,-26.51934 22.37569,-48 50,-48c27.62431,0 50,21.48066 50,48c0,26.51934 -22.37569,48 -50,48z" fill="#ffffff"/>
+  <path filter="url(#svg_17_blur)" id="svg_17" d="m196.00001,317.00001c-39.22652,0 -71,-30.50254 -71,-68.16c0,-37.65746 31.77348,-68.16 71,-68.16c39.22652,0 71,30.50254 71,68.16c0,37.65746 -31.77348,68.16 -71,68.16z" fill="#ffffff"/>
+  <ellipse filter="url(#svg_18_blur)" ry="18" rx="18" id="svg_18" cy="167" cx="228.5" fill="#000000"/>
+  <ellipse filter="url(#svg_19_blur)" ry="18" rx="18" id="svg_19" cy="169" cx="153.5" fill="#000000"/>
+  <rect filter="url(#svg_20_blur)" rx="1" id="svg_20" height="11" width="50" y="225.99999" x="168" fill="#0a0000"/>
+  <rect filter="url(#svg_21_blur)" id="svg_21" height="14" width="135" y="284" x="126" fill="#0a0000"/>
+ </g>
+ <defs>
+  <filter id="svg_18_blur">
+   <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_19_blur">
+   <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_16_blur">
+   <feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_17_blur">
+   <feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_20_blur">
+   <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_21_blur">
+   <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>

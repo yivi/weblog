@@ -1,0 +1,85 @@
+baseURL = 'https://weblog.yivoff.com/'
+languageCode = 'en-us'
+title = "Yivi's Weblog"
+theme = 'cupper-hugo-theme'
+
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+post = "/:filename/"
+
+[imaging]
+quality = 99
+
+[params]
+description = "Yivi's Weblog. Not really a monkey."
+homeMetaContent = "Semi-random posts made in times of need, preserved so Future Me can find them"
+footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme)."
+dateFormat = "2 Jan, 2006"
+codePenUser = "yivi"
+katex = false
+hideHeaderLinks = false
+search = true
+showThemeSwitcher = true
+defaultDarkTheme = false
+moveFooterToHeader = false
+logoAlt = "I'm not really a monkey, although this picture depicts one"
+customCss = [ "css/style.css"]
+# customJs = [ "js/custom_01.js", "js/custom_02.js" ]
+mainSections = ['post']
+
+[[menu.nav]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.nav]]
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.nav]]
+name = "About"
+url = "/about/"
+weight = 4
+
+[[menu.nav]]
+name = "RSS"
+url = "/index.xml"
+weight = 5
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+
+[markup.goldmark.parser]
+attribute = true
+autoHeadingID = true
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xHTML = false
+
+[markup.highlight]
+codeFences = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
+
+[markup.tableOfContents]
+endLevel = 6
+startLevel = 2
