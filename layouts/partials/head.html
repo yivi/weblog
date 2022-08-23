@@ -14,10 +14,9 @@
     {{ $summary := trim (.Summary | plainify | htmlUnescape) "\n\r"
     | default .Title }}
     <meta name="description" content="{{ $summary }}">
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "713a871c786241beaf70a320dada0f35"}'></script>
     {{ end }}
 
-
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "713a871c786241beaf70a320dada0f35"}'></script>
     <script defer data-domain="weblog.yivoff.com" src="https://plausible.io/js/plausible.js"></script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | absURL }}">
