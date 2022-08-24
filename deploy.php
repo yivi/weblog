@@ -6,7 +6,7 @@ require 'recipe/common.php';
 
 // Config
 
-set('repository', '');
+set('repository', 'https://github.com/yivi/weblog');
 
 add('shared_files', []);
 add('shared_dirs', []);
@@ -29,3 +29,6 @@ task('deploy', [
     'hugo:rebuild',
     'deploy:publish',
 ])->desc('Deploy your project');
+
+
+after('deploy:failed', 'deploy:unlock');
