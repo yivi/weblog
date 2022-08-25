@@ -3,7 +3,7 @@ date: "2014-04-09"
 title: "About me"
 ---
 
-My name is Iván Yivoff, and if you really, really, really need to contact me, just put together "ivan" and "yivoff.com".
+Hi there. I'm Iván Yivoff.
 
 I remember when Perl was the way to get this done, when DHTML and Flash were a thing, when magazines came with "Multimedia CDs" which you built with Macromedia Director, when you had to save money to buy a X2 SCSI CD burner, and then you had to fiddle with IRQ jumpers to make it work (most of the time).
 
@@ -13,7 +13,7 @@ I remember Zak McKracken fondly, and waiting to buy an AT computer.
 
 I'm not old. I'm well-used.
 
-I should be out riding my bike, or walking uphill. If I'm not, blame the computers.
+I should be outside riding my bike, or walking uphill ⛰. If I'm not, blame the computers.
 
 I need money to keep these two well-fed. The white one can't possibly fend for herself.
 
@@ -22,3 +22,4 @@ I need money to keep these two well-fed. The white one can't possibly fend for h
 * [Twitter](https://twitter.com/the_yivi)
 * [Github](https://github.com/yivi)
 * [SO](https://stackoverflow.com/users/1426539/yivi)
+* Email ✉️: f you really, really, **really** need to contact me: just put together `ivan`, `@` and `yivoff.com`.
