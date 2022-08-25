@@ -15,7 +15,8 @@ I'm not old. I'm well-used.
 
 I should be out riding my bike, or walking uphill. If I'm not, blame the computers.
 
-I need money to keep these two well-fed. The white one can't possibly fend for herself. 
+I need money to keep these two well-fed. The white one can't possibly fend for herself.
+
 ![Fighting and napping](/images/the_cats_sleep_weirdly.jpeg)
 
 * [Twitter](https://twitter.com/the_yivi)
