@@ -3,14 +3,21 @@ date: "2014-04-09"
 title: "About me"
 ---
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+My name is Iván Yivoff, and if you really, really, really need to contact me, just put together "ivan" and "yivoff.com".
 
-It makes use of a variety of open source projects including:
+I remember when Perl was the way to get this done, when DHTML and Flash were a thing, when magazines came with "Multimedia CDs" which you built with Macromedia Director, when you had to save money to buy a X2 SCSI CD burner, and then you had to fiddle with IRQ jumpers to make it work (most of the time).
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I remember studying Turbo Pascal **from a printed book that you went and bought in a physical store**. You chose from the books they had, which weren't that many.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+I remember Zak McKracken fondly, and waiting to buy an AT computer.
+
+I'm not old. I'm well-used.
+
+I should be out riding my bike, or walking uphill. If I'm not, blame the computers.
+
+I need money to keep these two well-fed. The white one can't possibly fend for herself. 
+![Fighting and napping](/images/the_cats_sleep_weirdly.jpeg)
+
+* [Twitter](https://twitter.com/the_yivi)
+* [Github](https://github.com/yivi)
+* [SO](https://stackoverflow.com/users/1426539/yivi)
