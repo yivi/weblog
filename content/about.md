@@ -19,7 +19,8 @@ I need money to keep these two well-fed. The white one can't possibly fend for h
 
 ![Fighting and napping](/images/the_cats_sleep_weirdly.jpeg)
 
-* [Twitter](https://twitter.com/the_yivi)
+* <a rel="me" href="https://phpc.social/@yivi">Mastodon</a>
 * [Github](https://github.com/yivi)
 * [SO](https://stackoverflow.com/users/1426539/yivi)
+ [Twitter](https://twitter.com/the_yivi) (currently migrating off this one)
 * Email ✉️: f you really, really, **really** need to contact me: just put together `ivan`, `@` and `yivoff.com`.
