@@ -1,5 +1,5 @@
 +++
-title="Quick set up steps a MacOs PHP Development box"
+title="Quick setup steps a MacOs PHP Development box"
 tags=["macos", "PHP"]
 date=2022-12-11T20:15:01
 type="post"
