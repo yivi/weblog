@@ -22,6 +22,7 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 - [Localization](#localization)
 - [Custom CSS and JS](#custom-css-and-js)
 - [Default to Dark Theme](#default-to-dark-theme)
+- [Enable utterances](#enable-utterances)
 - [Non-Git Repo](#non-git-repo)
 - [Getting help](#getting-help)
 - [Credits](#credits)
@@ -30,7 +31,7 @@ An accessibility-friendly Hugo theme, ported from the [original Cupper](https://
 
 ## Demo
 
-https://cupper-hugo-theme.netlify.com/
+https://cupper-hugo-theme.netlify.app/
 
 ## Minimum Hugo version
 
@@ -127,6 +128,28 @@ Note that the default of light or dark theme only applies to the first visit to 
 To reset to a 'first visit' scenario (e.g. for testing), one needs to either browse in private mode (aka Incognito/InPrivate/etc) or delete 'local storage' for this site. The easiest way to do that, but which affects other sites as well, is to use the 'Clear History' feature of the browser.
 
 Check your browser's help or documentation for details.
+
+## Enable utterances
+
+`utterances` is a lightweight comments widget built on GitHub issues.
+
+Firstly, choose the repository utterances will connect to:
+1. Make sure the repo is public, otherwise your readers will not be able to view the issues/comments.
+2. Make sure the [utterances app](https://github.com/apps/utterances) is installed on the repo, otherwise users will not be able to post comments.
+3. If your repo is a fork, navigate to its settings tab and confirm the issues feature is turned on.
+
+Secondly,In the site config file set the param `utterances.repo` to enable it.
+
+E.g. for `config.yaml`
+```yaml
+params:
+  utterances:
+    repo: username/username.github.io
+    issueTerm: title
+    theme: github-light
+```
+
+Refer to [utterances](https://utteranc.es/) for more information!
 
 ## Non-Git Repo
 
