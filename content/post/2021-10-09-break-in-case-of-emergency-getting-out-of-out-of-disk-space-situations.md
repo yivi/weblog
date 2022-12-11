@@ -1,9 +1,12 @@
 +++
-title="Break in case of emergency: getting out of \"out of disk space\" situations"
-date=2021-10-09T08:47:11+01:00
-draft=false
-tags=['linux', 'troubleshooting', 'infrastructure']
-type="post"
+title = "Break in case of emergency: getting out of \"out of disk space\" situations"
+date = 2021-10-09T08:47:11+01:00
+draft = false
+tags = ['linux', 'troubleshooting', 'infrastructure']
+type = "post"
+aliases = [
+"/break-in-case-of-emergency-getting-out-of-out-of-disk-space-situations/"
+]
 +++
 
 This happened to me once or twice: you get an alert that something is starting to go wrong with a server, but by the time someone can finally log in to the machine you discover a runaway process has filled the disk completely.

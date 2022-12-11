@@ -3,6 +3,9 @@ title="Opting out from Google's FLOC in Symfony"
 type="post"
 date=2021-04-21T12:12:12
 tags=["symfony", "google", "http"]
+aliases = [
+"/opting-out-from-googles-floc-in-symfony/"
+]
 +++
 [FLOC is evil.](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea)
 

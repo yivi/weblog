@@ -7,7 +7,7 @@ theme = 'cupper-hugo-theme'
 tag = "tags"
 
 [permalinks]
-post = "/:filename/"
+post = "/posts/:year-:month/:title/"
 
 [imaging]
 quality = 99

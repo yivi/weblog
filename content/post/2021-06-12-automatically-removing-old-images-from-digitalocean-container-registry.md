@@ -1,8 +1,11 @@
 +++
-title="Automatically removing old images from DigitalOcean Container Registry"
-date=2021-06-12T12:12:12
-tags=["infrastructure", "docker", "digitalocean"]
-type="post"
+title = "Automatically removing old images from DigitalOcean Container Registry"
+date = 2021-06-12T12:12:12
+tags = ["infrastructure", "docker", "digitalocean"]
+type = "post"
+aliases = [
+    "/automatically-removing-old-images-from-digitalocean-container-registry/"
+]
 +++
 
 ### Leveraging DO client and jq for fun and profit

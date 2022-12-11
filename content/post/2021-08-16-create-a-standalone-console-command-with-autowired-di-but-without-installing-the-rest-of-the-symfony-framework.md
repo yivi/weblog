@@ -1,8 +1,11 @@
 +++
 type="post"
 date=2021-08-16T12:12:12
-title="Create a standalone console command, with autowired DI, but without installing the rest of the Symfony framework"
-tags=["symfony", "PHP", "console"]
+title = "Create a standalone console command, with autowired DI, but without installing the rest of the Symfony framework"
+tags = ["symfony", "PHP", "console"]
+aliases = [
+    "/create-a-standalone-console-command-with-autowired-di-but-without-installing-the-rest-of-the-symfony-framework/"
+]
 +++
 
 `symfony/skeleton` is not a particularly heavy set of dependency set, but it's nice to be able to create a command with only the minimal set of required components.

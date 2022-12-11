@@ -3,9 +3,13 @@ title="Upgrading from Symfony 5.2 to 5.3"
 tags=["symfony", "upgrade", "PHP"]
 date=2021-06-26T12:12:12
 type="post"
+slug="upgrading-from-symfony-5.2-to-5.3"
+aliases = [
+"/upgrading-from-symfony-5.2-to-5.3/"
+]
 +++
 
-Upgrading to 5.3 and suddenly I get a few deprecations. Woe is me.
+Upgrading to 5.3, and I suddenly get a few deprecations. Woe is me.
 Let's get all of them resolved.
 
 (These are only field-notes, the exact deprecations and problems you'll get will vary on what exactly you have installed and are using. This is what happened to me on this specific project).
