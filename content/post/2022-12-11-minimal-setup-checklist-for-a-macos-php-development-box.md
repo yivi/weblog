@@ -1,8 +1,9 @@
 +++
 title="Quick setup steps a MacOs PHP Development box"
 tags=["macos", "PHP"]
-date=2022-12-11T20:15:01
+date=2022-12-11T15:15:01
 type="post"
+draft=false
 +++
 
 Reinstalling from scratch happily does not happen often, but ocassionally it does happen.
